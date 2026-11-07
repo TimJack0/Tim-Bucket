@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="TimBucket — personal website, creative space, photos, videos and contact.">
+  <title>TimBucket — Personal Space</title>
+
+  <!-- Fonts and icons are loaded online -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS: scroll reveal animations (online CDN) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TimBucket home"><span class="brand-mark">T</span>Tim<span>Bucket</span><i class="fa-solid fa-arrow-up-right-from-square brand-arrow"></i></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#gallery">Pictures</a>
+      <a class="nav-link" href="#videos">Videos</a>
+      <a class="nav-link" href="#journal">Journal</a>
+      <a class="nav-link nav-contact" href="#contact">Contact <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy" data-aos="fade-up">
+        <div class="eyebrow"><span class="status-dot"></span> PERSONAL WEBSITE · EST. 2026</div>
+        <h1>Hey, I'm <span class="gradient-text">Tim.</span><br>Welcome to my<br><span class="outline-text">little corner</span><br>of the internet.</h1>
+        <p class="hero-intro">A personal space for ideas, photographs, videos, projects and everything worth keeping.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Explore my world <i class="fa-solid fa-arrow-down"></i></a>
+          <a class="text-link" href="#contact">Let's connect <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="hero-meta"><span><i class="fa-solid fa-location-dot"></i> India</span><span class="meta-divider"></span><span>Curious mind. Always creating.</span></div>
+      </div>
+      <div class="hero-art" data-aos="zoom-in" data-aos-delay="150">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-card">
+          <div class="hero-card-top"><span>TB / 001</span><span class="live-pill">● ONLINE</span></div>
+          <div class="monogram">T<span>.</span></div>
+          <div class="hero-card-bottom"><span>THINK · CREATE · SHARE</span><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+        <div class="floating-chip chip-one"><i class="fa-solid fa-code"></i> Digital creator</div>
+        <div class="floating-chip chip-two"><i class="fa-regular fa-image"></i> Visual stories</div>
+        <div class="sparkle sparkle-one">✳</div><div class="sparkle sparkle-two">✦</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="ticker" aria-label="Interests"><div class="ticker-track"><span>CREATIVITY</span><b>✳</b><span>TECHNOLOGY</span><b>✳</b><span>PHOTOGRAPHY</span><b>✳</b><span>IDEAS</span><b>✳</b><span>STORIES</span><b>✳</b><span>CREATIVITY</span><b>✳</b><span>TECHNOLOGY</span><b>✳</b><span>PHOTOGRAPHY</span><b>✳</b></div></section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-kicker" data-aos="fade-up">01 / ABOUT</div>
+      <div class="section-heading-row" data-aos="fade-up"><h2>A little about<br><span class="gradient-text">the person behind it.</span></h2><p>This is my digital home — a place to introduce myself, share what I make, and collect moments along the way.</p></div>
+      <div class="about-grid">
+        <article class="about-note glass-card" data-aos="fade-up"><div class="note-icon"><i class="fa-regular fa-compass"></i></div><h3>Curiosity first.</h3><p>I enjoy exploring technology, learning new things and turning ideas into something useful.</p><span class="card-index">01 — MINDSET</span></article>
+        <article class="about-note glass-card" data-aos="fade-up" data-aos-delay="100"><div class="note-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div><h3>Made with intention.</h3><p>From digital experiments to everyday discoveries, this site is a growing collection of my interests.</p><span class="card-index">02 — CREATION</span></article>
+        <article class="about-note glass-card" data-aos="fade-up" data-aos-delay="200"><div class="note-icon"><i class="fa-regular fa-paper-plane"></i></div><h3>Open to connection.</h3><p>Have an idea, a question or a project in mind? I'd be happy to hear from you.</p><span class="card-index">03 — COMMUNITY</span></article>
+      </div>
+    </section>
+
+    <section class="section-wrap gallery-section" id="gallery">
+      <div class="section-kicker" data-aos="fade-up">02 / PICTURES</div>
+      <div class="section-heading-row" data-aos="fade-up"><h2>Frames from<br><span class="gradient-text">my perspective.</span></h2><p>A gallery area for travel, people, places, events and everyday moments. Replace the sample images with your own.</p></div>
+      <div class="gallery-grid">
+        <a class="gallery-item gallery-tall" href="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85" target="_blank" rel="noreferrer" data-aos="fade-up"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85" alt="Mountain lake landscape"><span class="image-caption">01 / OUTDOORS <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+        <a class="gallery-item" href="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-delay="80"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=85" alt="Starry night sky"><span class="image-caption">02 / NIGHT SKY <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+        <a class="gallery-item" href="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1400&q=85" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-delay="160"><img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1000&q=85" alt="Forest and mountains"><span class="image-caption">03 / NATURE <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+        <a class="gallery-item" href="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1400&q=85" target="_blank" rel="noreferrer" data-aos="fade-up"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1000&q=85" alt="Modern architecture"><span class="image-caption">04 / DESIGN <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+        <a class="gallery-item" href="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1400&q=85" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-delay="80"><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85" alt="Ocean waves"><span class="image-caption">05 / MOMENTS <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+      </div>
+    </section>
+
+    <section class="section-wrap video-section" id="videos">
+      <div class="section-kicker" data-aos="fade-up">03 / VIDEOS</div>
+      <div class="section-heading-row" data-aos="fade-up"><h2>Watch this<br><span class="gradient-text">space grow.</span></h2><p>Embed your YouTube videos here. Replace the video ID in the iframe URL with your own.</p></div>
+      <div class="video-grid">
+        <div class="video-card" data-aos="fade-up"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4" title="Sample video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="video-info"><span>FEATURED VIDEO</span><h3>A story in motion</h3></div></div>
+        <div class="video-placeholder glass-card" data-aos="fade-up" data-aos-delay="100"><div class="play-icon"><i class="fa-solid fa-play"></i></div><h3>Your next video goes here.</h3><p>Add another YouTube embed by duplicating the video card in <code>index.html</code>.</p><a class="text-link" href="https://youtu.be/87hwdZmN5F0?si=0zldCbzI9r5f4wnL" target="_blank" rel="noreferrer">Open YouTube <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+      </div>
+    </section>
+
+    <section class="section-wrap journal-section" id="journal">
+      <div class="section-kicker" data-aos="fade-up">04 / JOURNAL</div>
+      <div class="journal-card" data-aos="fade-up"><div><span class="journal-label">NOTES / THOUGHTS / UPDATES</span><h2>Some things are<br>better <span class="gradient-text">written down.</span></h2></div><p>Use this section for short articles, announcements, project updates or personal reflections. Your website can evolve as you do.</p><a class="button button-secondary" href="mailto:hello@timbucket.com">Send me a note <i class="fa-solid fa-arrow-up-right-from-square"></i></a><div class="journal-decoration">TB.</div></div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="section-kicker" data-aos="fade-up">05 / CONTACT</div>
+      <div class="contact-panel" data-aos="zoom-in"><div class="contact-orb"></div><span class="contact-overline">HAVE SOMETHING IN MIND?</span><h2>Let's make<br><span class="gradient-text">something happen.</span></h2><p>Questions, collaborations or just saying hello — my inbox is open.</p><a class="button button-primary" href="mailto:hello@timbucket.com?subject=Hello%20TimBucket">Contact me <i class="fa-solid fa-paper-plane"></i></a><div class="social-links"><a href="https://instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="https://youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">T</span>Tim<span>Bucket</span></a><p>© <span id="year"></span> TimBucket. Made with curiosity.</p><a class="back-top" href="#home">BACK TO TOP ↑</a></footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
